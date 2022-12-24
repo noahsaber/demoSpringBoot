@@ -34,7 +34,7 @@ jobs:
       - name: build & push docker image
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
-          image : abderhmanemahdigharzouli/spring-exemple
+          image : noahlbk/demo3
           tags: latest
           registry: docker.io
           dockerfile: Dockerfile
